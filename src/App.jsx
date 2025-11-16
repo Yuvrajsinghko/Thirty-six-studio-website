@@ -1,8 +1,12 @@
 import React from 'react'
+import Canvas from './Canvas'
 
 const App = () => {
   return (
-    <div className='text-5xl text-amber-600'>App</div>
+    <>
+    <div className='w-full min-h-screen bg-black text-amber-500 text-[5vw]'>Ragnar</div>
+    <Canvas />
+    </>
   )
 }
 
